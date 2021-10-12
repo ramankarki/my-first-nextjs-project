@@ -10,7 +10,7 @@ import { getSortedPostsData } from '../lib/posts';
 export async function getStaticProps() {
   const allPostsData = getSortedPostsData();
 
-  allPostsData.push({ title: 'testing', date: '2020-01-05' });
+  // allPostsData.push({ title: 'testing', date: '2020-01-05' });
 
   return {
     props: {
