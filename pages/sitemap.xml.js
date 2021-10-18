@@ -27,6 +27,8 @@ function generateSiteMap(posts) {
 
 function SiteMap() {
   // getServerSideProps will do the heavy lifting
+  //
+  // If we return XML content from this component, it will be rendered as a html document in the browser.
 }
 
 export async function getServerSideProps({ res }) {
